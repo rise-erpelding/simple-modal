@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import classnames from 'classnames'
 
 
-export const SimpleModal = (props) => {
+const SimpleModal = (props) => {
   const modalClass = classnames({
     [styles.show]: props.show,
     [styles.hide]: !props.show,
@@ -16,3 +16,5 @@ export const SimpleModal = (props) => {
       </div>
     </div>)
 }
+
+export default SimpleModal
