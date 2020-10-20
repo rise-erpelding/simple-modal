@@ -1,9 +1,32 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  /* border: 2px solid green; */
 }
+
+.show {
+  display: block;
+  /* border: 2px solid purple; */
+}
+
+.hide {
+  /* border: 2px solid orange; */
+  /* display: none; */
+}
+
+/* .main {
+  position: fixed;
+  background: whitesmoke;
+  width: 80%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #FF9A5C;
+} */

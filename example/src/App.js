@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-import { ExampleComponent } from 'simple-modal'
+import { SimpleModal } from 'simple-modal'
 import 'simple-modal/dist/index.css'
 
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+class App extends Component {
+  render() {
+    return (<SimpleModal show={true}><div>Hello modal</div></SimpleModal>)
+  }
 }
 
 export default App
