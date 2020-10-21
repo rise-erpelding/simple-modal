@@ -7,26 +7,12 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  /* border: 2px solid green; */
 }
 
 .show {
   display: block;
-  /* border: 2px solid purple; */
 }
 
 .hide {
-  /* border: 2px solid orange; */
-  /* display: none; */
+  display: none;
 }
-
-/* .main {
-  position: fixed;
-  background: whitesmoke;
-  width: 80%;
-  height: auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 2px solid #FF9A5C;
-} */
