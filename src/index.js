@@ -11,9 +11,7 @@ const SimpleModal = (props) => {
 
   return (
     <div className={modalClass}>
-      <div className={styles.main}>
-        {props.children}
-      </div>
+      {props.children}
     </div>)
 }
 
